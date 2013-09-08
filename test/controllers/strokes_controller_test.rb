@@ -18,7 +18,7 @@ class StrokesControllerTest < ActionController::TestCase
 
   test "should create stroke" do
     assert_difference('Stroke.count') do
-      post :create, stroke: { grip: @stroke.grip, handedness: @stroke.handedness, player_id: @stroke.player_id, shot: @stroke.shot, spin: @stroke.spin }
+      post :create, stroke: { grip: @stroke.grip, handedness: @stroke.handedness, link: @stroke.link, player_id: @stroke.player_id, shot: @stroke.shot, spin: @stroke.spin }
     end
 
     assert_redirected_to stroke_path(assigns(:stroke))
@@ -35,7 +35,7 @@ class StrokesControllerTest < ActionController::TestCase
   end
 
   test "should update stroke" do
-    patch :update, id: @stroke, stroke: { grip: @stroke.grip, handedness: @stroke.handedness, player_id: @stroke.player_id, shot: @stroke.shot, spin: @stroke.spin }
+    patch :update, id: @stroke, stroke: { grip: @stroke.grip, handedness: @stroke.handedness, link: @stroke.link, player_id: @stroke.player_id, shot: @stroke.shot, spin: @stroke.spin }
     assert_redirected_to stroke_path(assigns(:stroke))
   end
 

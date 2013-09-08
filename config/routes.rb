@@ -1,4 +1,6 @@
 StrokeFinder::Application.routes.draw do
+  resources :players
+
   resources :strokes
   #root :to => 'Strokes#new'
 

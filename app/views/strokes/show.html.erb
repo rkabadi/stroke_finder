@@ -1,11 +1,6 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Player:</strong>
-  <%= @stroke.player_id %>
-</p>
-
-<p>
   <strong>Shot:</strong>
   <%= @stroke.shot %>
 </p>
@@ -23,6 +18,16 @@
 <p>
   <strong>Spin:</strong>
   <%= @stroke.spin %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @stroke.link %>
+</p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @stroke.player_id %>
 </p>
 
 <%= link_to 'Edit', edit_stroke_path(@stroke) %> |
