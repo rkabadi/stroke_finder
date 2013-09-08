@@ -10,6 +10,7 @@ class StrokesController < ApplicationController
   # GET /strokes/1
   # GET /strokes/1.json
   def show
+
   end
 
   # GET /strokes/new

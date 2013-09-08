@@ -1,0 +1,2 @@
+module StrokescontrollerHelper
+end
