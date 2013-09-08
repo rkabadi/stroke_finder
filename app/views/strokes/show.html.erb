@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @stroke.player_id %>
+</p>
+
+<p>
+  <strong>Shot:</strong>
+  <%= @stroke.shot %>
+</p>
+
+<p>
+  <strong>Handedness:</strong>
+  <%= @stroke.handedness %>
+</p>
+
+<p>
+  <strong>Grip:</strong>
+  <%= @stroke.grip %>
+</p>
+
+<p>
+  <strong>Spin:</strong>
+  <%= @stroke.spin %>
+</p>
+
+<%= link_to 'Edit', edit_stroke_path(@stroke) %> |
+<%= link_to 'Back', strokes_path %>

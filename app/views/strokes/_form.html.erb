@@ -1,0 +1,37 @@
+<%= form_for(@stroke) do |f| %>
+  <% if @stroke.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@stroke.errors.count, "error") %> prohibited this stroke from being saved:</h2>
+
+      <ul>
+      <% @stroke.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :player_id %><br>
+    <%= f.number_field :player_id %>
+  </div>
+  <div class="field">
+    <%= f.label :shot %><br>
+    <%= f.text_field :shot %>
+  </div>
+  <div class="field">
+    <%= f.label :handedness %><br>
+    <%= f.text_field :handedness %>
+  </div>
+  <div class="field">
+    <%= f.label :grip %><br>
+    <%= f.text_field :grip %>
+  </div>
+  <div class="field">
+    <%= f.label :spin %><br>
+    <%= f.text_field :spin %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
