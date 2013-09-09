@@ -1,21 +1,43 @@
 <%= form_for(@player) do |f| %>
-  <% if @player.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@player.errors.count, "error") %> prohibited this player from being saved:</h2>
+    <% if @player.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@player.errors.count, "error") %> prohibited this player from being saved:</h2>
 
-      <ul>
-      <% @player.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+          <ul>
+            <% @player.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <%= f.fields_for :strokes do |stroke_form|%>
+        <div class="field">
+          <%= stroke_form.label :shot %><br>
+          <%= stroke_form.text_field :shot %>
+        </div>
+        <div class="field">
+          <%= stroke_form.label :handedness %><br>
+          <%= stroke_form.text_field :handedness %>
+        </div>
+        <div class="field">
+          <%= stroke_form.label :grip %><br>
+          <%= stroke_form.text_field :grip %>
+        </div>
+        <div class="field">
+          <%= stroke_form.label :spin %><br>
+          <%= stroke_form.text_field :spin %>
+        </div>
+        <div class="field">
+          <%= stroke_form.label :link %><br>
+          <%= stroke_form.text_field :link %>
+        </div>
+    <% end %>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
 <% end %>
