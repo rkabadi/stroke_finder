@@ -2,21 +2,21 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Shot</th>
-      <th>Handedness</th>
-      <th>Grip</th>
-      <th>Spin</th>
-      <th>Link</th>
-      <th>Player</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
+  <tr>
+    <th>Shot</th>
+    <th>Handedness</th>
+    <th>Grip</th>
+    <th>Spin</th>
+    <th>Link</th>
+    <th>Player</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @strokes.each do |stroke| %>
+  <% @strokes.each do |stroke| %>
       <tr>
         <td><%= stroke.shot %></td>
         <td><%= stroke.handedness %></td>
@@ -28,7 +28,7 @@
         <td><%= link_to 'Edit', edit_stroke_path(stroke) %></td>
         <td><%= link_to 'Destroy', stroke, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <% end %>
+  <% end %>
   </tbody>
 </table>
 
