@@ -6,7 +6,6 @@ one:
   grip: MyString
   spin: MyString
   link: MyString
-  player_id: 1
 
 two:
   shot: MyString
@@ -14,4 +13,3 @@ two:
   grip: MyString
   spin: MyString
   link: MyString
-  player_id: 1
