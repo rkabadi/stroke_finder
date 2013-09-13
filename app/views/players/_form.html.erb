@@ -18,19 +18,23 @@
     <%= f.fields_for :strokes do |stroke_form|%>
         <div class="field">
           <%= stroke_form.label :shot %><br>
-          <%= stroke_form.text_field :shot %>
+          <%#= stroke_form.text_field :shot %>
+          <%= stroke_form.collection_select :shot, Search.select(:shot).uniq, :shot, :shot %>
         </div>
         <div class="field">
           <%= stroke_form.label :handedness %><br>
-          <%= stroke_form.text_field :handedness %>
+          <%#= stroke_form.text_field :handedness %>
+          <%= stroke_form.collection_select :handedness, Search.where(:shot => 'Forehand' ), :handedness, :handedness %>
         </div>
         <div class="field">
           <%= stroke_form.label :grip %><br>
-          <%= stroke_form.text_field :grip %>
+          <%#= stroke_form.text_field :grip %>
+          <%= stroke_form.collection_select :grip, Search.all, :grip, :grip %>
         </div>
         <div class="field">
           <%= stroke_form.label :spin %><br>
-          <%= stroke_form.text_field :spin %>
+          <%#= stroke_form.text_field :spin %>
+          <%= stroke_form.collection_select :spin, Search.all, :spin, :spin %>
         </div>
         <div class="field">
           <%= stroke_form.label :link %><br>
