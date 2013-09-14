@@ -19,17 +19,17 @@
     <div class="field">
       <%= f.label :handedness %><br>
       <%#= f.text_field :handedness %>
-      <%= f.collection_select :handedness, Search.all, :handedness, :handedness %>
+      <%= f.collection_select :handedness, Search.select(:handedness).uniq, :handedness, :handedness %>
     </div>
     <div class="field">
       <%= f.label :grip %><br>
       <%#= f.text_field :grip %>
-      <%= f.collection_select :grip, Search.all, :grip, :grip %>
+      <%= f.collection_select :grip, Search.select(:grip).uniq, :grip, :grip %>
     </div>
     <div class="field">
       <%= f.label :spin %><br>
       <%#= f.text_field :spin %>
-      <%= f.collection_select :spin, Search.all, :spin, :spin %>
+      <%= f.collection_select :spin, Search.select(:spin).uniq, :spin, :spin %>
     </div>
   <div class="actions">
     <%= f.submit %>
