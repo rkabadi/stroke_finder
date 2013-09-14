@@ -19,7 +19,7 @@
     <div class="field">
       <%= f.label :handedness %><br>
       <%#= f.text_field :handedness %>
-      <%= f.collection_select :handedness, Search.where(:shot => 'Forehand' ), :handedness, :handedness %>
+      <%= f.collection_select :handedness, Search.all, :handedness, :handedness %>
     </div>
     <div class="field">
       <%= f.label :grip %><br>

@@ -10,6 +10,7 @@ class SearchesController < ApplicationController
   # GET /searches/1
   # GET /searches/1.json
   def show
+    @search = Search.find(params[:id])
   end
 
   # GET /searches/new

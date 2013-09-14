@@ -24,17 +24,17 @@
         <div class="field">
           <%= stroke_form.label :handedness %><br>
           <%#= stroke_form.text_field :handedness %>
-          <%= stroke_form.collection_select :handedness, Search.where(:shot => 'Forehand' ), :handedness, :handedness %>
+          <%= stroke_form.collection_select :handedness, Search.select(:handedness).uniq, :handedness, :handedness %>
         </div>
         <div class="field">
           <%= stroke_form.label :grip %><br>
           <%#= stroke_form.text_field :grip %>
-          <%= stroke_form.collection_select :grip, Search.all, :grip, :grip %>
+          <%= stroke_form.collection_select :grip, Search.select(:grip).uniq, :grip, :grip %>
         </div>
         <div class="field">
           <%= stroke_form.label :spin %><br>
           <%#= stroke_form.text_field :spin %>
-          <%= stroke_form.collection_select :spin, Search.all, :spin, :spin %>
+          <%= stroke_form.collection_select :spin, Search.select(:spin).uniq, :spin, :spin %>
         </div>
         <div class="field">
           <%= stroke_form.label :link %><br>
