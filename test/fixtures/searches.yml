@@ -2,14 +2,14 @@
 
 one:
   name: MyString
-  shot: MyString
-  handedness: MyString
-  grip: MyString
-  spin: MyString
+  shot_id: 1
+  hand_id: 1
+  grip_id: 1
+  spin_id: 1
 
 two:
   name: MyString
-  shot: MyString
-  handedness: MyString
-  grip: MyString
-  spin: MyString
+  shot_id: 1
+  hand_id: 1
+  grip_id: 1
+  spin_id: 1

@@ -17,24 +17,24 @@
     </div>
     <%= f.fields_for :strokes do |stroke_form|%>
         <div class="field">
-          <%= stroke_form.label :shot %><br>
+          <%= stroke_form.label :shot_id %><br>
           <%#= stroke_form.text_field :shot %>
-          <%= stroke_form.collection_select :shot, Search.select(:shot).uniq, :shot, :shot %>
+          <%= stroke_form.collection_select :shot_id, Shot.all, :id, :name %>
         </div>
         <div class="field">
-          <%= stroke_form.label :handedness %><br>
+          <%= stroke_form.label :hand_id %><br>
           <%#= stroke_form.text_field :handedness %>
-          <%= stroke_form.collection_select :handedness, Search.select(:handedness).uniq, :handedness, :handedness %>
+          <%= stroke_form.collection_select :hand_id, Hand.all, :id, :name %>
         </div>
         <div class="field">
-          <%= stroke_form.label :grip %><br>
+          <%= stroke_form.label :grip_id %><br>
           <%#= stroke_form.text_field :grip %>
-          <%= stroke_form.collection_select :grip, Search.select(:grip).uniq, :grip, :grip %>
+          <%= stroke_form.collection_select :grip_id, Grip.all, :id, :name %>
         </div>
         <div class="field">
-          <%= stroke_form.label :spin %><br>
+          <%= stroke_form.label :spin_id %><br>
           <%#= stroke_form.text_field :spin %>
-          <%= stroke_form.collection_select :spin, Search.select(:spin).uniq, :spin, :spin %>
+          <%= stroke_form.collection_select :spin_id, Spin.all, :id, :name %>
         </div>
         <div class="field">
           <%= stroke_form.label :link %><br>

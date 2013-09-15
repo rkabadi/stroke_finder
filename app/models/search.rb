@@ -4,11 +4,11 @@ class Search < ActiveRecord::Base
   end
 
   def find_strokes
-    strokes = Stroke.order(:shot)
-    strokes = strokes.where(shot: shot)
-    strokes = strokes.where(handedness: handedness) if handedness.present?
-    strokes = strokes.where(grip: grip) if grip.present?
-    strokes = strokes.where(spin: spin) if spin.present?
+    strokes = Stroke.order(:shot_id)
+    strokes = strokes.where(shot_id: shot_id)
+    strokes = strokes.where(hand_id: hand_id) if hand_id.present?
+    strokes = strokes.where(grip_id: grip_id) if grip_id.present?
+    strokes = strokes.where(spin_id: spin_id) if spin_id.present?
     strokes
   end
 end

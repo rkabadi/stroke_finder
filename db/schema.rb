@@ -11,7 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130913021904) do
+ActiveRecord::Schema.define(version: 20130915005913) do
+
+  create_table "grips", force: true do |t|
+    t.integer  "grip_id"
+    t.string   "name"
+    t.integer  "shot_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hands", force: true do |t|
+    t.integer  "hand_id"
+    t.string   "name"
+    t.integer  "shot_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "players", force: true do |t|
     t.integer  "player_id"
@@ -22,19 +38,34 @@ ActiveRecord::Schema.define(version: 20130913021904) do
 
   create_table "searches", force: true do |t|
     t.string   "name"
-    t.string   "shot"
-    t.string   "handedness"
-    t.string   "grip"
-    t.string   "spin"
+    t.integer  "shot_id"
+    t.integer  "hand_id"
+    t.integer  "grip_id"
+    t.integer  "spin_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "shots", force: true do |t|
+    t.integer  "shot_id"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spins", force: true do |t|
+    t.integer  "spin_id"
+    t.string   "name"
+    t.integer  "shot_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "strokes", force: true do |t|
-    t.string   "shot"
-    t.string   "handedness"
-    t.string   "grip"
-    t.string   "spin"
+    t.integer  "shot_id"
+    t.integer  "hand_id"
+    t.integer  "grip_id"
+    t.integer  "spin_id"
     t.string   "link"
     t.integer  "player_id"
     t.datetime "created_at"

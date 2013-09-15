@@ -4,7 +4,7 @@
   <thead>
     <tr>
       <th>Shot</th>
-      <th>Handedness</th>
+      <th>Hand</th>
       <th>Grip</th>
       <th>Spin</th>
       <th>Link</th>
@@ -17,10 +17,10 @@
   <tbody>
     <% @strokes.each do |stroke| %>
       <tr>
-        <td><%= stroke.shot %></td>
-        <td><%= stroke.handedness %></td>
-        <td><%= stroke.grip %></td>
-        <td><%= stroke.spin %></td>
+        <td><%= stroke.shot_id %></td>
+        <td><%= stroke.hand_id %></td>
+        <td><%= stroke.grip_id %></td>
+        <td><%= stroke.spin_id %></td>
         <td><%= stroke.link %></td>
         <td><%= link_to 'Show', stroke %></td>
         <td><%= link_to 'Edit', edit_stroke_path(stroke) %></td>

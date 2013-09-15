@@ -10,7 +10,6 @@ class SearchesController < ApplicationController
   # GET /searches/1
   # GET /searches/1.json
   def show
-    @search = Search.find(params[:id])
   end
 
   # GET /searches/new
@@ -70,6 +69,6 @@ class SearchesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def search_params
-      params.require(:search).permit(:name, :shot, :handedness, :grip, :spin)
+      params.require(:search).permit(:name, :shot_id, :hand_id, :grip_id, :spin_id)
     end
 end

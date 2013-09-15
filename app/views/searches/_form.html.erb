@@ -11,26 +11,31 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
     <div class="field">
-      <%= f.label :shot %><br>
+      <%= f.label :shot_id %><br>
       <%#= f.text_field :shot %>
-      <%= f.collection_select :shot, Search.select(:shot).uniq, :shot, :shot %>
+      <%= f.collection_select :shot_id, Shot.all, :id, :name %>
     </div>
     <div class="field">
-      <%= f.label :handedness %><br>
+      <%= f.label :hand_id %><br>
       <%#= f.text_field :handedness %>
-      <%= f.collection_select :handedness, Search.select(:handedness).uniq, :handedness, :handedness %>
+      <%= f.collection_select :hand_id, Hand.all, :id, :name %>
     </div>
     <div class="field">
-      <%= f.label :grip %><br>
+      <%= f.label :grip_id %><br>
       <%#= f.text_field :grip %>
-      <%= f.collection_select :grip, Search.select(:grip).uniq, :grip, :grip %>
+      <%= f.collection_select :grip_id, Grip.all, :id, :name %>
     </div>
     <div class="field">
-      <%= f.label :spin %><br>
+      <%= f.label :spin_id %><br>
       <%#= f.text_field :spin %>
-      <%= f.collection_select :spin, Search.select(:spin).uniq, :spin, :spin %>
+      <%= f.collection_select :spin_id, Spin.all, :id, :name %>
     </div>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

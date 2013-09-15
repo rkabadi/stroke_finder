@@ -5,7 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Shot</th>
-      <th>Handedness</th>
+      <th>Hand</th>
       <th>Grip</th>
       <th>Spin</th>
       <th></th>
@@ -18,10 +18,10 @@
     <% @searches.each do |search| %>
       <tr>
         <td><%= search.name %></td>
-        <td><%= search.shot %></td>
-        <td><%= search.handedness %></td>
-        <td><%= search.grip %></td>
-        <td><%= search.spin %></td>
+        <td><%= search.shot_id %></td>
+        <td><%= search.hand_id %></td>
+        <td><%= search.grip_id %></td>
+        <td><%= search.spin_id %></td>
         <td><%= link_to 'Show', search %></td>
         <td><%= link_to 'Edit', edit_search_path(search) %></td>
         <td><%= link_to 'Destroy', search, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -69,6 +69,6 @@ class StrokesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def stroke_params
-      params.require(:stroke).permit(:shot, :handedness, :grip, :spin, :link)
+      params.require(:stroke).permit(:shot_id, :hand_id, :grip_id, :spin_id, :link)
     end
 end

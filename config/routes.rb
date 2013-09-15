@@ -1,6 +1,14 @@
 StrokeFinder::Application.routes.draw do
   resources :searches
 
+  resources :hands
+
+  resources :spins
+
+  resources :grips
+
+  resources :shots
+
   resources :players
   root :to => 'players#new'
 

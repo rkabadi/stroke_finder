@@ -18,7 +18,7 @@ class SearchesControllerTest < ActionController::TestCase
 
   test "should create search" do
     assert_difference('Search.count') do
-      post :create, search: { grip: @search.grip, handedness: @search.handedness, name: @search.name, shot: @search.shot, spin: @search.spin }
+      post :create, search: { grip_id: @search.grip_id, hand_id: @search.hand_id, name: @search.name, shot_id: @search.shot_id, spin_id: @search.spin_id }
     end
 
     assert_redirected_to search_path(assigns(:search))
@@ -35,7 +35,7 @@ class SearchesControllerTest < ActionController::TestCase
   end
 
   test "should update search" do
-    patch :update, id: @search, search: { grip: @search.grip, handedness: @search.handedness, name: @search.name, shot: @search.shot, spin: @search.spin }
+    patch :update, id: @search, search: { grip_id: @search.grip_id, hand_id: @search.hand_id, name: @search.name, shot_id: @search.shot_id, spin_id: @search.spin_id }
     assert_redirected_to search_path(assigns(:search))
   end
 
