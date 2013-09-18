@@ -1,0 +1,38 @@
+<p>
+<% stroke_string = ''
+   if(stroke.player.name.present?)
+     stroke_string = stroke_string + stroke.player.name + ' '
+   end
+   if(stroke.hand_id.present?)
+     stroke_string = stroke_string + Hand.find(stroke.hand_id).name.downcase + '-handed '
+   end
+   if(stroke.spin_id.present?)
+     stroke_string = stroke_string + Spin.find(stroke.spin_id).name.downcase + ' '
+   end
+   if(stroke.shot_id.present?)
+     stroke_string = stroke_string + Shot.find(stroke.shot_id).name + 's '
+   end
+   stroke_string = stroke_string + 'strokes '
+   if(stroke.grip_id.present?)
+     stroke_string = stroke_string + 'hit with a ' + Grip.find(stroke.grip_id).name.downcase + ' grip'
+   end
+
+   #Source to embed youtube video
+   # http://stackoverflow.com/questions/5909121/converting-a-regular-youtube-link-into-an-embedded-video
+   def youtube_embed(youtube_url)
+     if youtube_url[/youtu\.be\/([^\?]*)/]
+       youtube_id = $1
+     else
+       # Regex from # http://stackoverflow.com/questions/3452546/javascript-regex-how-to-get-youtube-video-id-from-url/4811367#4811367
+       youtube_url[/^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\&\?]*).*/]
+       youtube_id = $5
+     end
+
+     %Q{<iframe width="560" height="315" src="http://www.youtube.com/embed/#{ youtube_id }" frameborder="0" allowfullscreen></iframe>}
+   end
+
+%>
+<h4><%=stroke_string %></h4>
+<%= raw(youtube_embed(stroke.link)) %>
+</p>
+<br>

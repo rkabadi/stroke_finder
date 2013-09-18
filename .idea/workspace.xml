@@ -2,77 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764e185b-fd9e-4092-b774-7da4906cabf2" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Rohit\Documents\CMU\stroke_finder\stroke_finder\db\migrate\20130912071849_create_searches.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Rohit\Documents\CMU\stroke_finder\stroke_finder\app\views\strokes\find.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/searches/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/strokes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/strokes/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/index.html.erb" afterPath="$PROJECT_DIR$/app/views/searches/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/strokes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/strokes/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/searches/index.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/strokes/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/strokes/index.json.jbuilder" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/players.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/players.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/players_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/players_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/search.rb" afterPath="$PROJECT_DIR$/app/models/search.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/searches.yml" afterPath="$PROJECT_DIR$/test/fixtures/searches.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/searches_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/searches_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/searches_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/strokes/show.html.erb" afterPath="$PROJECT_DIR$/app/views/strokes/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/searches/show.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/strokes/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/strokes/show.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searches/show.html.erb" afterPath="$PROJECT_DIR$/app/views/searches/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/stroke.rb" afterPath="$PROJECT_DIR$/app/models/stroke.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stroke_finder.iml" afterPath="$PROJECT_DIR$/.idea/stroke_finder.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/strokes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/strokes_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stroke_finder.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379197500699" ignored="false" />
+    <file path="/Dummy.txt" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379378955138" ignored="false" />
     <file path="/user.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378591736152" ignored="false" />
     <file path="/player.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378696693398" ignored="false" />
-    <file path="/stroke.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379203560774" ignored="false" />
-    <file path="/Gemfile" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378598861677" ignored="false" />
+    <file path="/stroke.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379381184153" ignored="false" />
+    <file path="/Gemfile" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379304514860" ignored="false" />
     <file path="/20130908021203_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378606529270" ignored="false" />
-    <file path="/application.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378607763133" ignored="false" />
+    <file path="/application.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379296901350" ignored="false" />
     <file path="/20130908025249_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378614607450" ignored="false" />
-    <file path="/routes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378701255946" ignored="false" />
+    <file path="/routes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379282493166" ignored="false" />
     <file path="/20130908043221_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378614761028" ignored="false" />
     <file path="/20130908043416_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378614978981" ignored="false" />
     <file path="/20130908043737_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378615076989" ignored="false" />
     <file path="/20130908043830_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378617060446" ignored="false" />
-    <file path="/_form.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379208693323" ignored="false" />
+    <file path="/_form.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379403529767" ignored="false" />
     <file path="/20130908051740_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378617488114" ignored="false" />
     <file path="/20130908051944_create_players.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378617610993" ignored="false" />
     <file path="/find.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378622644653" ignored="false" />
-    <file path="/a.dummy" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379206565615" ignored="false" />
+    <file path="/a.dummy" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379229204150" ignored="false" />
     <file path="/find.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378626474202" ignored="false" />
-    <file path="/strokes_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379203331401" ignored="false" />
+    <file path="/strokes_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379301113980" ignored="false" />
     <file path="/lookup.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378623847255" ignored="false" />
     <file path="/temp.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378626340272" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/strokes_controller_controller_test.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378626340272" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/strokescontroller_controller_test.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1378626340272" ignored="false" />
-    <file path="/players_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379203415992" ignored="false" />
-    <file path="/index.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379204791496" ignored="false" />
+    <file path="/players_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379276359610" ignored="false" />
+    <file path="/index.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379282174857" ignored="false" />
     <file path="/20130912071849_create_searches.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379038150294" ignored="false" />
     <file path="/20130913021811_create_players.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379038848213" ignored="false" />
     <file path="/20130913021904_create_strokes.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379038858212" ignored="false" />
-    <file path="/search.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379205000077" ignored="false" />
-    <file path="/show.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379203644884" ignored="false" />
-    <file path="/_stroke.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379203613207" ignored="false" />
-    <file path="/players.js.coffee" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379191032140" ignored="false" />
-    <file path="/searches.js.coffee" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379196596126" ignored="false" />
+    <file path="/search.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379286912899" ignored="false" />
+    <file path="/show.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379294796521" ignored="false" />
+    <file path="/_stroke.html.erb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379301967345" ignored="false" />
+    <file path="/players.js.coffee" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379403028182" ignored="false" />
+    <file path="/searches.js.coffee" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379302923148" ignored="false" />
     <file path="/20130914231224_create_spins.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379200950493" ignored="false" />
     <file path="/20130914231134_create_grips.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379200805823" ignored="false" />
     <file path="/20130914231116_create_shots.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379200880301" ignored="false" />
     <file path="/20130914232452_create_hands.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379202783377" ignored="false" />
-    <file path="/hand.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379202877985" ignored="false" />
+    <file path="/hand.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379225574105" ignored="false" />
     <file path="/spin.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379202865950" ignored="false" />
-    <file path="/grip.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379202886174" ignored="false" />
-    <file path="/shot.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379202908565" ignored="false" />
+    <file path="/grip.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379218549631" ignored="false" />
+    <file path="/shot.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379227142361" ignored="false" />
     <file path="/show.json.jbuilder" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379204873663" ignored="false" />
-    <file path="/searches_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379206409854" ignored="false" />
-    <file path="/index.json.jbuilder" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379206603755" ignored="false" />
-    <file path="/20130915005913_create_searches.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379207047479" ignored="false" />
+    <file path="/searches_controller.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379276426521" ignored="false" />
+    <file path="/index.json.jbuilder" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379278491643" ignored="false" />
+    <file path="/20130915005913_create_searches.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379228044480" ignored="false" />
+    <file path="/strokes_helper.rb" changelist="764e185b-fd9e-4092-b774-7da4906cabf2" time="1379299043687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,37 +89,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="search.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/search.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="78" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stroke.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/stroke.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="36" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/searches/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="51" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-22.884615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searches.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="65" selection-start="787" selection-end="787" vertical-scroll-proportion="-22.884615">
+            <state line="20" column="76" selection-start="604" selection-end="604" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
@@ -131,25 +119,16 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/strokes/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="718" selection-end="718" vertical-scroll-proportion="-17.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/searches/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/players.js.coffee">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="65" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="26" column="97" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
@@ -158,25 +137,51 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/strokes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="869" selection-end="913" vertical-scroll-proportion="-23.538462">
+              <folding>
+                <marker date="1379282175353" expanded="true" signature="32:860" placeholder="..." />
+                <marker date="1379282175353" expanded="true" signature="42:242" placeholder="..." />
+                <marker date="1379282175353" expanded="true" signature="51:231" placeholder="..." />
+                <marker date="1379282175353" expanded="true" signature="253:851" placeholder="..." />
+                <marker date="1379282175353" expanded="true" signature="300:826" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players.js.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/players.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="45" selection-start="266" selection-end="266" vertical-scroll-proportion="0.03974284">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/strokes/show.html.erb">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="16" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.json.jbuilder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/searches/index.json.jbuilder">
+      <file leaf-file-name="searches.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="31" column="68" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,22 +205,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/strokes/_stroke.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/strokes/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/strokes/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/views/strokes/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/search.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/strokes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/strokes/_stroke.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/searches/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee" />
+        <option value="$PROJECT_DIR$/app/helpers/strokes_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/stroke.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/searches/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/players.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/searches/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/strokes/show.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/views/searches/show.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee" />
-        <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/index.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/models/search.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/show.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130915005913_create_searches.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/strokes/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -258,7 +263,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -492,6 +496,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stroke_finder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stroke_finder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -535,6 +561,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -542,9 +569,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.db:migrate">
+  <component name="RunManager" selected="RSpec.strokefinder_spec">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="stroke_finder" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -563,6 +591,37 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="strokefinder_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="stroke_finder" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/app/models/strokefinder_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -774,17 +833,19 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: stroke_finder" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: stroke_finder" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.strokefinder_spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Production: stroke_finder" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: stroke_finder" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.strokefinder_spec" />
         <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
       </list>
     </recent_temporary>
   </component>
@@ -824,7 +885,11 @@
       <created>1379197501644</created>
       <updated>1379197501644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modified databases adding shot, grip, spin tables">
+      <created>1379208764647</created>
+      <updated>1379208764647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -849,25 +914,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-499" width="1096" height="1936" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2582205" sideWeight="0.3127778" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33365571" sideWeight="0.67023075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33558995" sideWeight="0.6745362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2582205" sideWeight="0.3127778" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16723745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24951644" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32546374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24951644" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -913,7 +978,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified search form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified databases adding shot, grip, spin tables" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -930,89 +995,103 @@
     <MESSAGE value="added drop down menus for adding strokes and players" />
     <MESSAGE value="Search working" />
     <MESSAGE value="modified search form" />
+    <MESSAGE value="Modified databases adding shot, grip, spin tables" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/search.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/strokes/_stroke.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+        <state line="20" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="-13.076923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="742" selection-end="786" vertical-scroll-proportion="-22.23077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/searches/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130914232452_create_hands.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="17" selection-start="0" selection-end="3402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130915005913_create_searches.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/strokes_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/strokes/_stroke.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/strokefinder_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.9615384">
+        <state line="16" column="24" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="78" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/index.json.jbuilder">
+    <entry file="file://$PROJECT_DIR$/app/views/strokes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="36" column="0" selection-start="869" selection-end="913" vertical-scroll-proportion="-23.538462">
+          <folding>
+            <marker date="1379282175353" expanded="true" signature="32:860" placeholder="..." />
+            <marker date="1379282175353" expanded="true" signature="42:242" placeholder="..." />
+            <marker date="1379282175353" expanded="true" signature="51:231" placeholder="..." />
+            <marker date="1379282175353" expanded="true" signature="253:851" placeholder="..." />
+            <marker date="1379282175353" expanded="true" signature="300:826" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/stroke.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="65" selection-start="787" selection-end="787" vertical-scroll-proportion="-22.884615">
+        <state line="6" column="36" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/searches.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="68" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/players.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="65" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="16" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/strokes/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1021,28 +1100,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/searches/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="51" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-22.884615">
+        <state line="20" column="76" selection-start="604" selection-end="604" vertical-scroll-proportion="-13.076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/strokes/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="718" selection-end="718" vertical-scroll-proportion="-17.653847">
+        <state line="26" column="97" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-17.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/strokes/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/players.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/strokes/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="45" selection-start="266" selection-end="266" vertical-scroll-proportion="0.03974284">
           <folding />
         </state>
       </provider>

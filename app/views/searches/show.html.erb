@@ -1,3 +1,19 @@
-<h1>Search Results</h1>
+<% query_string = 'Search Results - Tennis videos showing '
+    if(@search.hand_id.present?)
+      query_string = query_string + Hand.find(@search.hand_id).name.downcase + '-handed '
+    end
+    if(@search.spin_id.present?)
+      query_string = query_string + Spin.find(@search.spin_id).name.downcase + ' '
+    end
+    if(@search.shot_id.present?)
+      query_string = query_string + Shot.find(@search.shot_id).name.downcase + 's '
+    end
+    query_string = query_string + 'strokes '
+    if(@search.grip_id.present?)
+      query_string = query_string + 'hit with a ' + Grip.find(@search.grip_id).name.downcase + ' grip'
+    end
+%>
+<h1><%=query_string %></h1>
 
 <%= render @search.strokes %>
+<%= link_to 'New Search', new_search_path %>

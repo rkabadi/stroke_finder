@@ -1,0 +1,27 @@
+<h1>Listing grips</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @grips.each do |grip| %>
+      <tr>
+        <td><%= grip.name %></td>
+        <td><%= link_to 'Show', grip %></td>
+        <td><%= link_to 'Edit', edit_grip_path(grip) %></td>
+        <td><%= link_to 'Destroy', grip, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Grip', new_grip_path %>

@@ -8,6 +8,7 @@
       <th>Grip</th>
       <th>Spin</th>
       <th>Link</th>
+      <th>Player</th>
       <th></th>
       <th></th>
       <th></th>
@@ -17,11 +18,12 @@
   <tbody>
     <% @strokes.each do |stroke| %>
       <tr>
-        <td><%= stroke.shot_id %></td>
-        <td><%= stroke.hand_id %></td>
-        <td><%= stroke.grip_id %></td>
-        <td><%= stroke.spin_id %></td>
+        <td><%= Shot.find(stroke.shot_id).name %></td>
+        <td><%= Hand.find(stroke.hand_id).name %></td>
+        <td><%= Grip.find(stroke.grip_id).name %></td>
+        <td><%= Spin.find(stroke.spin_id).name %></td>
         <td><%= stroke.link %></td>
+        <td><%= stroke.player.name %></td>
         <td><%= link_to 'Show', stroke %></td>
         <td><%= link_to 'Edit', edit_stroke_path(stroke) %></td>
         <td><%= link_to 'Destroy', stroke, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -18,25 +18,27 @@
     <div class="field">
       <%= f.label :shot_id %><br>
       <%#= f.text_field :shot %>
-      <%= f.collection_select :shot_id, Shot.all, :id, :name %>
+      <%= f.collection_select :shot_id, Shot.all, :id, :name, :prompt => '--Select--' %>
     </div>
     <div class="field">
       <%= f.label :hand_id %><br>
       <%#= f.text_field :handedness %>
-      <%= f.collection_select :hand_id, Hand.all, :id, :name %>
+      <%= f.grouped_collection_select :hand_id, Shot.all, :hands, :name, :id, :name %>
     </div>
     <div class="field">
       <%= f.label :grip_id %><br>
       <%#= f.text_field :grip %>
-      <%= f.collection_select :grip_id, Grip.all, :id, :name %>
+      <%= f.grouped_collection_select :grip_id, Shot.all, :grips, :name, :id, :name %>
     </div>
     <div class="field">
       <%= f.label :spin_id %><br>
       <%#= f.text_field :spin %>
-      <%= f.collection_select :spin_id, Spin.all, :id, :name %>
+      <%= f.grouped_collection_select :spin_id, Shot.all, :spins, :name, :id, :name %>
     </div>
-  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
+  <%= link_to 'New Stroke', new_player_path %>
 <% end %>
+
+

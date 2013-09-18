@@ -10,6 +10,13 @@ class StrokesController < ApplicationController
   # GET /strokes/1
   # GET /strokes/1.json
   def show
+    @stroke = Stroke.find(params[:id])
+
+    respond_to do |format|
+      format.html
+      format.xml {render :xml => @stroke}
+      format.json {render :json => @stroke}
+    end
   end
 
   # GET /strokes/new

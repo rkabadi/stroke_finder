@@ -19,22 +19,22 @@
         <div class="field">
           <%= stroke_form.label :shot_id %><br>
           <%#= stroke_form.text_field :shot %>
-          <%= stroke_form.collection_select :shot_id, Shot.all, :id, :name %>
+          <%= stroke_form.collection_select :shot_id, Shot.all, :id, :name, :prompt => '--Select--' %>
         </div>
         <div class="field">
           <%= stroke_form.label :hand_id %><br>
           <%#= stroke_form.text_field :handedness %>
-          <%= stroke_form.collection_select :hand_id, Hand.all, :id, :name %>
+          <%= stroke_form.grouped_collection_select :hand_id, Shot.all, :hands, :name, :id, :name %>
         </div>
         <div class="field">
           <%= stroke_form.label :grip_id %><br>
           <%#= stroke_form.text_field :grip %>
-          <%= stroke_form.collection_select :grip_id, Grip.all, :id, :name %>
+          <%= stroke_form.grouped_collection_select :grip_id, Shot.all, :grips, :name, :id, :name %>
         </div>
         <div class="field">
           <%= stroke_form.label :spin_id %><br>
           <%#= stroke_form.text_field :spin %>
-          <%= stroke_form.collection_select :spin_id, Spin.all, :id, :name %>
+          <%= stroke_form.grouped_collection_select :spin_id, Shot.all, :spins, :name, :id, :name %>
         </div>
         <div class="field">
           <%= stroke_form.label :link %><br>
@@ -44,4 +44,5 @@
     <div class="actions">
       <%= f.submit %>
     </div>
+    <%= link_to 'New Search', new_search_path, "data-no-turbolink" => true %>
 <% end %>

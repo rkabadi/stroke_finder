@@ -1,0 +1,27 @@
+<h1>Listing spins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @spins.each do |spin| %>
+      <tr>
+        <td><%= spin.name %></td>
+        <td><%= link_to 'Show', spin %></td>
+        <td><%= link_to 'Edit', edit_spin_path(spin) %></td>
+        <td><%= link_to 'Destroy', spin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Spin', new_spin_path %>
